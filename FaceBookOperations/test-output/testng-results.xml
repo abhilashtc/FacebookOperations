@@ -1,37 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Facebook LoginPage" duration-ms="2364" started-at="2018-05-20T11:56:47Z" finished-at="2018-05-20T11:56:49Z">
+  <suite name="Suite" duration-ms="817" started-at="2018-06-16T14:48:49Z" finished-at="2018-06-16T14:48:49Z">
     <groups>
     </groups>
-    <test name="Login with a Valid UserName and Valid Password" duration-ms="2364" started-at="2018-05-20T11:56:47Z" finished-at="2018-05-20T11:56:49Z">
-      <class name="com.facebook.TestCases.loginToFaceBook">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.facebook.TestCases.loginToFaceBook@4439f31e]" name="beforeTest" is-config="true" duration-ms="21521" started-at="2018-05-20T17:26:25Z" finished-at="2018-05-20T17:26:47Z">
+    <test name="Test" duration-ms="817" started-at="2018-06-16T14:48:49Z" finished-at="2018-06-16T14:48:49Z">
+      <class name="com.facebook.features.ExtentReportTest">
+        <test-method status="PASS" signature="setupExtentReports()[pri:0, instance:com.facebook.features.ExtentReportTest@64c64813]" name="setupExtentReports" is-config="true" duration-ms="416" started-at="2018-06-16T20:18:49Z" finished-at="2018-06-16T20:18:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="loginWithValidUserName(java.lang.String, java.lang.String)[pri:1, instance:com.facebook.TestCases.loginToFaceBook@4439f31e]" name="loginWithValidUserName" duration-ms="2338" started-at="2018-05-20T17:26:47Z" finished-at="2018-05-20T17:26:49Z">
+        </test-method> <!-- setupExtentReports -->
+        <test-method status="PASS" signature="testOne()[pri:0, instance:com.facebook.features.ExtentReportTest@64c64813]" name="testOne" duration-ms="16" started-at="2018-06-16T20:18:49Z" finished-at="2018-06-16T20:18:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.features.ExtentReportTest@64c64813]" name="register" is-config="true" duration-ms="0" started-at="2018-06-16T20:18:49Z" finished-at="2018-06-16T20:18:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[penTest.Abhi.1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[SeleniumTest123]]>
+                <![CDATA[public void com.facebook.features.ExtentReportTest.testOne() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginWithValidUserName -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.facebook.TestCases.loginToFaceBook@4439f31e]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-05-20T17:26:49Z" finished-at="2018-05-20T17:26:49Z">
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.features.ExtentReportTest@64c64813]" name="register" is-config="true" duration-ms="0" started-at="2018-06-16T20:18:49Z" finished-at="2018-06-16T20:18:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.facebook.features.ExtentReportTest.testThree()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.facebook.TestCases.loginToFaceBook -->
-    </test> <!-- Login with a Valid UserName and Valid Password -->
-  </suite> <!-- Facebook LoginPage -->
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.features.ExtentReportTest@64c64813]" name="captureStatus" is-config="true" duration-ms="0" started-at="2018-06-16T20:18:49Z" finished-at="2018-06-16T20:18:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testThree status=SUCCESS method=ExtentReportTest.testThree()[pri:0, instance:com.facebook.features.ExtentReportTest@64c64813] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.facebook.features.ExtentReportTest@64c64813]" name="cleanUp" is-config="true" duration-ms="385" started-at="2018-06-16T20:18:49Z" finished-at="2018-06-16T20:18:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.features.ExtentReportTest@64c64813]" name="captureStatus" is-config="true" duration-ms="0" started-at="2018-06-16T20:18:49Z" finished-at="2018-06-16T20:18:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOne status=SUCCESS method=ExtentReportTest.testOne()[pri:0, instance:com.facebook.features.ExtentReportTest@64c64813] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method status="PASS" signature="testThree()[pri:0, instance:com.facebook.features.ExtentReportTest@64c64813]" name="testThree" duration-ms="0" started-at="2018-06-16T20:18:49Z" finished-at="2018-06-16T20:18:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.facebook.features.ExtentReportTest@64c64813]" name="afterSuite" is-config="true" duration-ms="4165" started-at="2018-06-16T20:18:50Z" finished-at="2018-06-16T20:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.facebook.features.ExtentReportTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -17,12 +17,19 @@ import org.testng.annotations.Test;
 
 import com.facebook.utilities.GeneralUtilities;
 
+import net.sourceforge.htmlunit.corejs.javascript.tools.debugger.Main;
+
 public class loginToFaceBook {
 	
   WebDriver driver;
   public String url;
   
   @BeforeSuite
+  public void beforeSuite() throws Exception {
+	  ExtentReports extent = ExtentReports.get(Main.class);
+  }
+  
+  @BeforeTest
   public void beforeTest() throws Exception {
 	System.setProperty("webdriver.gecko.driver","D:/SeleniumDependencyDrivers/geckodriver.exe");
 	driver = new FirefoxDriver();
